@@ -1,0 +1,39 @@
+# Dependabot configuration for automated dependency updates
+# This enables professional dependency management for open source projects
+
+version: 2
+updates:
+  # Enable updates for npm dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    # Professional settings for maintainer workflow
+    reviewers:
+      - "YUVRAJRANA10"  # Replace with actual maintainer usernames
+    assignees:
+      - "YUVRAJRANA10"
+    commit-message:
+      prefix: "chore"
+      prefix-development: "chore"
+      include: "scope"
+    # Limit PRs to prevent spam
+    open-pull-requests-limit: 5
+    # Group security updates for easier review
+    groups:
+      security-updates:
+        patterns:
+          - "*"
+        update-types:
+          - "security-update"
+      
+  # Enable updates for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/.github/workflows"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "ci"
+      include: "scope"
