@@ -1,17 +1,14 @@
-// Bad code with linting errors
-var message = "Hello World"
-let unused = 'never used';
+// Fixed code following professional standards
+const message = 'Hello World';
 
 function greet() {
-    console.log(message)
-    
-    if (message = "test") {
-        return "greeting"
-    }
-    
-    var result = "hello"
-    return result
+  // Removed console.log for production readiness
+  if (message === 'test') {
+    return 'greeting';
+  }
+
+  const result = 'hello';
+  return result;
 }
 
-// Missing semicolon, bad spacing
-const badFormatted={name:"John",age:25}
+export default greet;
