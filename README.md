@@ -3,6 +3,7 @@
 A comprehensive full-stack application designed to help developers prepare for technical interviews. This project serves as both a learning resource and a demonstration of professional open-source project management.
 
 ## 📋 Table of Contents
+
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
@@ -13,12 +14,14 @@ A comprehensive full-stack application designed to help developers prepare for t
 ## ✨ Features
 
 ### 🎓 Interview Preparation
+
 - **Coding Challenges**: Curated collection of coding problems with solutions
 - **System Design**: Interactive system design tutorials and examples
 - **Behavioral Questions**: Common interview questions with sample answers
 - **Mock Interviews**: Practice sessions with timer and feedback
 
 ### 🛠️ Technical Features
+
 - **Frontend**: Modern React application with responsive design
 - **Backend**: RESTful API built with Node.js and Express
 - **Database**: Efficient data storage and retrieval
@@ -28,6 +31,7 @@ A comprehensive full-stack application designed to help developers prepare for t
 ## 🚀 Tech Stack
 
 ### Frontend
+
 - **React** - UI framework
 - **TypeScript** - Type safety
 - **Tailwind CSS** - Styling
@@ -35,6 +39,7 @@ A comprehensive full-stack application designed to help developers prepare for t
 - **Axios** - HTTP client
 
 ### Backend
+
 - **Node.js** - Runtime environment
 - **Express** - Web framework
 - **MongoDB/PostgreSQL** - Database
@@ -42,6 +47,7 @@ A comprehensive full-stack application designed to help developers prepare for t
 - **Bcrypt** - Password hashing
 
 ### DevOps & Tools
+
 - **Git** - Version control
 - **ESLint** - Code linting
 - **Prettier** - Code formatting
@@ -51,7 +57,9 @@ A comprehensive full-stack application designed to help developers prepare for t
 ## 🛠️ Getting Started
 
 ### Prerequisites
+
 Make sure you have the following installed:
+
 - **Node.js** (v16 or higher)
 - **npm** or **yarn**
 - **Git**
@@ -59,48 +67,53 @@ Make sure you have the following installed:
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/interview-prep.git
    cd interview-prep
    ```
 
 2. **Install dependencies**
+
    ```bash
    # Install root dependencies
    npm install
-   
+
    # Install frontend dependencies
    cd frontend
    npm install
-   
+
    # Install backend dependencies
    cd ../backend
    npm install
    ```
 
 3. **Environment Setup**
+
    ```bash
    # Create environment files
    cp backend/.env.example backend/.env
    cp frontend/.env.example frontend/.env
-   
+
    # Edit the .env files with your configuration
    ```
 
 4. **Database Setup**
+
    ```bash
    # If using MongoDB
    npm run db:setup
-   
+
    # If using PostgreSQL
    npm run migrate
    ```
 
 5. **Start the application**
+
    ```bash
    # Start backend (from root directory)
    npm run dev:backend
-   
+
    # Start frontend (in a new terminal)
    npm run dev:frontend
    ```
@@ -166,6 +179,7 @@ npm run test:coverage
 We welcome contributions from developers of all skill levels! This project is designed to be beginner-friendly while maintaining professional standards.
 
 ### Quick Start for Contributors
+
 1. 📖 Read our [Contributing Guide](CONTRIBUTING.md)
 2. 🍴 Fork the repository
 3. 🌿 Create a feature branch
@@ -174,6 +188,7 @@ We welcome contributions from developers of all skill levels! This project is de
 6. 📝 Submit a pull request
 
 ### Ways to Contribute
+
 - 🐛 **Bug Reports**: Found a bug? Let us know!
 - ✨ **Feature Requests**: Have an idea? We'd love to hear it!
 - 📝 **Documentation**: Help improve our docs
@@ -182,6 +197,7 @@ We welcome contributions from developers of all skill levels! This project is de
 - 🔧 **Code**: Fix bugs or add features
 
 ### Good First Issues
+
 Look for issues labeled [`good first issue`](https://github.com/yourusername/interview-prep/labels/good%20first%20issue) - these are perfect for new contributors!
 
 ## 📊 Project Status
@@ -193,18 +209,21 @@ Look for issues labeled [`good first issue`](https://github.com/yourusername/int
 ## 🎯 Roadmap
 
 ### Phase 1: Core Features ✅
+
 - [x] Basic project setup
 - [x] User authentication
 - [x] Problem database
 - [x] Basic UI
 
 ### Phase 2: Enhanced Features 🚧
+
 - [ ] Advanced filtering and search
 - [ ] Progress tracking and analytics
 - [ ] Mock interview simulator
 - [ ] Community features
 
 ### Phase 3: Advanced Features 📅
+
 - [ ] AI-powered code review
 - [ ] Video interview practice
 - [ ] Company-specific prep tracks

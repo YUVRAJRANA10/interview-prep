@@ -5,6 +5,7 @@ Thank you for your interest in contributing to Interview Prep! This document out
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - Git
 - A GitHub account
@@ -14,12 +15,14 @@ Thank you for your interest in contributing to Interview Prep! This document out
 1. **Fork the repository**
    - Click the "Fork" button at the top right of this repository
    - Clone your fork locally:
+
    ```bash
    git clone https://github.com/YOUR_USERNAME/interview-prep.git
    cd interview-prep
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
@@ -32,29 +35,35 @@ Thank you for your interest in contributing to Interview Prep! This document out
 ## 📝 Contribution Workflow
 
 ### 1. Choose What to Work On
+
 - Browse our [Issues](../../issues) page
 - Look for issues labeled `good first issue` or `help wanted`
 - Comment on the issue to let others know you're working on it
 
 ### 2. Development Process
+
 - Make your changes in small, logical commits
 - Write clear commit messages following this format:
+
   ```
   type(scope): brief description
-  
+
   Longer description if needed
   ```
+
   Examples:
   - `feat(auth): add user login functionality`
   - `fix(api): resolve data validation bug`
   - `docs(readme): update installation instructions`
 
 ### 3. Testing
+
 - Ensure all existing tests pass: `npm test`
 - Add tests for new functionality
 - Test your changes manually
 
 ### 4. Code Quality
+
 - Follow the existing code style
 - Run linting: `npm run lint`
 - Format code: `npm run format`
@@ -79,6 +88,7 @@ Thank you for your interest in contributing to Interview Prep! This document out
 ## 📋 Code Style Guidelines
 
 ### JavaScript/TypeScript
+
 - Use 2 spaces for indentation
 - Use semicolons
 - Use single quotes for strings
@@ -86,6 +96,7 @@ Thank you for your interest in contributing to Interview Prep! This document out
 - Use PascalCase for classes and components
 
 ### Git Commit Messages
+
 - Use present tense ("Add feature" not "Added feature")
 - Keep first line under 50 characters
 - Reference issues and pull requests when applicable
@@ -93,6 +104,7 @@ Thank you for your interest in contributing to Interview Prep! This document out
 ## 🐛 Bug Reports
 
 When reporting bugs, please include:
+
 - **Description**: Clear description of the bug
 - **Steps to reproduce**: Detailed steps to reproduce the issue
 - **Expected behavior**: What you expected to happen
@@ -103,6 +115,7 @@ When reporting bugs, please include:
 ## 💡 Feature Requests
 
 For feature requests, please include:
+
 - **Problem**: What problem does this solve?
 - **Solution**: Describe your proposed solution
 - **Alternatives**: Any alternative solutions considered
@@ -143,6 +156,7 @@ interview-prep/
 ## 🏆 Recognition
 
 Contributors will be recognized in:
+
 - README.md contributors section
 - Release notes
 - Hall of fame (for significant contributions)
